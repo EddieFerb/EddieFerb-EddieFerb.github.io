@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Conta - Instituição</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/TelaCadastrar2.js" defer></script>
+</head>
+    <body>
+    <img src="img/icon.png" alt="Logo" style="position: absolute; top: 10px; left: 10px; width: 50px; height: 40px;">
+    </body>
+<body>
+    <div class="container">
+        <main>
+            <h2>Criar conta</h2>
+            <form>
+                <div class="input-container">
+                    <label for="instituicao">A qual instituição você está vinculado?</label>
+                    <select id="instituicao" required>
+                        <option value="">Selecione uma instituição</option>
+                        <option value="Instituição A">Instituição A</option>
+                        <option value="Instituição B">Instituição B</option>
+                        <option value="Instituição C">Instituição C</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <label for="supervisor">A qual supervisor você está vinculado?</label>
+                    <select id="supervisor" required>
+                        <option value="">Selecione um supervisor</option>
+                        <option value="Supervisor A">Supervisor A</option>
+                        <option value="Supervisor B">Supervisor B</option>
+                        <option value="Supervisor C">Supervisor C</option>
+                    </select>
+                </div>
+                <div class="button-container">
+                    <button type="button" onClick="location.href='TelaCadastrar.html'">Voltar</button>
+                    <button type="button" onClick="location.href='TelaPerfilDoUsuario.html'">Enviar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <div class="site-footer">
+            <p>Todos os direitos reservados. 2024. Londrina | Paraná. Powered by Eduardo Fernandes Bueno.</p>
+        </div>
+    </footer>
+</body>
+</html>
