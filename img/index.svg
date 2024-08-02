@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Alterando as cores para corresponder ao novo esquema -->
+  <rect width="800" height="600" fill="#FFFFFF" />
+  <text x="400" y="300" font-family="Roboto" font-size="40" fill="#202123" text-anchor="middle">Login - ICAP Desktop</text>
+</svg>
